@@ -24,7 +24,7 @@ const buildWeatherDailyUrl = (location) =>
     `http://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${process.env.API_KEY}`;
 
 const buildIconUrl = (icon) =>
-    `http://openweathermap.org/img/wn/${icon}@2x.png`; // OpenWeather'dan 2x boyutlu ikon URL'si
+    `http://openweathermap.org/img/wn/${icon}@2x.png`; 
 
 
 app.get('/', (req, res) => {
@@ -37,7 +37,7 @@ app.post('/getweather', async (req, res) => {
     const url = buildWeatherUrl(location);
     const urlDaily = buildWeatherDailyUrl(location);
     const now = new Date();
-    const hour = String(now.getHours()).padStart(2, '0'); // 2 basamaklı format
+    const hour = String(now.getHours()).padStart(2, '0'); 
     const minute = String(now.getMinutes()).padStart(2, '0');
     
     try {
@@ -70,7 +70,7 @@ app.post('/getweather', async (req, res) => {
         res.render('weather.ejs', {
             temp: temperature,
             description: description,
-            icon: buildIconUrl(icon), // buildIconUrl fonksiyonunu burada kullanıyoruz
+            icon: buildIconUrl(icon),
             location: name,
             hour: hour,
             minute: minute,
