@@ -1,0 +1,16 @@
+/* Tüm sayfa için varsayılan font */
+body {
+    font-family: "Rubik", serif;; /* Oswald yazı tipi */
+    background-color: #C9E6F0; /* Arka plan rengini de burada tanımlayabilirsiniz */
+}
+
+/* Başlıklar için farklı bir font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik", serif;; /* Playfair Display yazı tipi */
+}
+
+/* Form elemanları ve genel stil */
+input, button, .card {
+    font-family: "Rubik", serif;; /* Oswald yazı tipi */
+}
+

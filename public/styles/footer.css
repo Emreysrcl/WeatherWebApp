@@ -1,0 +1,14 @@
+
+main {
+    flex: 1; /* İçeriği esnek hale getir */
+}
+
+footer {
+    /* İsteğe bağlı: footer arka plan rengi */
+    color:grey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0; /* Varsayılan marginleri kaldır */
+}
