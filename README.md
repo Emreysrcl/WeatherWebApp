@@ -79,9 +79,11 @@ Distributed under the MIT License. See [MIT License](https://opensource.org/lice
 
  ## Contact
 
-Emre Yaşar Çal - X [@Zaytexss](https://twitter.com/Zaytexss) - 2003ysr@gmail.com
-Linkedin : https://www.linkedin.com/in/emre-yaşar-çal-3562ab203/
-İnstagram : https://www.instagram.com/emreysrcl/?hl=tr
+Emre Yaşar Çal 
+- X [@Zaytexss](https://twitter.com/Zaytexss)
+- 2003ysr@gmail.com
+- Linkedin : https://www.linkedin.com/in/emre-yaşar-çal-3562ab203/
+- İnstagram : https://www.instagram.com/emreysrcl/?hl=tr
 
 Project Link: https://github.com/Emreysrcl/emrecritic
  ## Acknowledgments
