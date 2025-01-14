@@ -85,7 +85,7 @@ Emre Yaşar Çal
 - Linkedin : https://www.linkedin.com/in/emre-yaşar-çal-3562ab203/
 - İnstagram : https://www.instagram.com/emreysrcl/?hl=tr
 
-Project Link: https://github.com/Emreysrcl/emrecritic
+Project Link: https://github.com/Emreysrcl/WeatherWebApp
  ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
