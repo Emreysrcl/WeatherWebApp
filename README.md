@@ -13,7 +13,7 @@ CHECK THE WEATHER QUICKLY AND EASILY!
 
   
 
-![project](https://prnt.sc/9gj1CKv-VPMr)
+![Weather App Preview](./public/assets/Weatherappprewiew.png)
 
 
 </p>
