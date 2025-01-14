@@ -8,23 +8,23 @@ const app = express();
 const port = 3000;
 
 //Api key control
-if (!process.env.API_KEY) {
-    console.error('API Key is missing. Please set it in .env file.');
-    process.exit(1);
-}
+//if (!process.env.API_KEY) {
+//    console.error('API Key is missing. Please set it in .env file.');
+   // process.exit(1);}
+
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
 const buildWeatherUrl = (location) =>
-    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.API_KEY}`;
+    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=1372b6d6a8d8aaa9502f75bd61199434`;
 
 const buildWeatherDailyUrl = (location) =>
-    `http://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${process.env.API_KEY}`;
+    `http://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=1372b6d6a8d8aaa9502f75bd61199434`;
 
 const buildIconUrl = (icon) =>
-    `http://openweathermap.org/img/wn/${icon}@2x.png`; // OpenWeather'dan 2x boyutlu ikon URL'si
+    `http://openweathermap.org/img/wn/${icon}@2x.png`; 
 
 
 app.get('/', (req, res) => {
@@ -37,7 +37,7 @@ app.post('/getweather', async (req, res) => {
     const url = buildWeatherUrl(location);
     const urlDaily = buildWeatherDailyUrl(location);
     const now = new Date();
-    const hour = String(now.getHours()).padStart(2, '0'); // 2 basamaklı format
+    const hour = String(now.getHours()).padStart(2, '0'); 
     const minute = String(now.getMinutes()).padStart(2, '0');
     
     try {
@@ -70,7 +70,7 @@ app.post('/getweather', async (req, res) => {
         res.render('weather.ejs', {
             temp: temperature,
             description: description,
-            icon: buildIconUrl(icon), // buildIconUrl fonksiyonunu burada kullanıyoruz
+            icon: buildIconUrl(icon), 
             location: name,
             hour: hour,
             minute: minute,
