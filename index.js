@@ -8,20 +8,20 @@ const app = express();
 const port = 3000;
 
 //Api key control
-//if (!process.env.API_KEY) {
-//    console.error('API Key is missing. Please set it in .env file.');
-   // process.exit(1);}
-
+if (!process.env.API_KEY) {
+    console.error('API Key is missing. Please set it in .env file.');
+    process.exit(1);
+}
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
 const buildWeatherUrl = (location) =>
-    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=1372b6d6a8d8aaa9502f75bd61199434`;
+    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.API_KEY}`;
 
 const buildWeatherDailyUrl = (location) =>
-    `http://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=1372b6d6a8d8aaa9502f75bd61199434`;
+    `http://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${process.env.API_KEY}`;
 
 const buildIconUrl = (icon) =>
     `http://openweathermap.org/img/wn/${icon}@2x.png`; 
