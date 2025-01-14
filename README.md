@@ -13,7 +13,7 @@ CHECK THE WEATHER QUICKLY AND EASILY!
 
   
 
-![project](https://imgur.com/a/Dy4TfJL)
+![project](https://prnt.sc/9gj1CKv-VPMr)
 
 
 </p>
