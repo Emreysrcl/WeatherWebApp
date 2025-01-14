@@ -4,14 +4,16 @@
 
 <h1 align="center">WeatherWebApp</h1>
 <p align="center">
-FIND OUT THE WEATHER EASILY
+CHECK THE WEATHER QUICKLY AND EASILY!
 <br/>
 <br/>
 <a href="https://github.com/Emreysrcl/WeatherWebApp"><strong>Explore the docs »</strong></a>
+<a href="https://weatherwebapp-production-d853.up.railway.app" target="_blank"><strong>Try WeatherWebApp Now »</strong></a>
+
 
   
 
-![project](https://github.com/user-attachments/assets/29122a06-08cf-49aa-b429-341d6b3b5d24)
+![project](https://imgur.com/a/Dy4TfJL)
 
 
 </p>
@@ -19,11 +21,11 @@ FIND OUT THE WEATHER EASILY
 
  ## About The Project
 
-
-
 WeatherWebApp is a web application designed for fetching and displaying real-time weather data. Users can enter a location to quickly access current weather conditions and a 5-day forecast.
 
+
 ## Key Features
+
 - [Search for Weather:] (Enter a city name to get the current weather conditions, including temperature, humidity, wind speed, and more.)
 - [5-Day Forecast:] (View a detailed weather forecast for the upcoming days.)
 - [User-Friendly Design:] (A simple and intuitive interface with responsive design for all devices.)
@@ -32,13 +34,13 @@ WeatherWebApp is a web application designed for fetching and displaying real-tim
 
  ### Built With
 
-
-
 - [Node.js and Express.js](https://nodejs.org/en)
 - [EJS](https://ejs.co)
 - [Bootstrap](https://getbootstrap.com)
 - [OpenWeather API](https://openweathermap.org/api)
 - [CSS](https://www.w3schools.com/css/)
+
+  
  ### Prerequisites
 
 - Clone the Repository
@@ -58,17 +60,22 @@ WeatherWebApp is a web application designed for fetching and displaying real-tim
 
 -npm start
 *The server will start on http://localhost:3000*
+
  ## Usage
 
- - Home Page: Displays the list of games with options to sort them.
-- Add New Game: Accessed via the "Add a Game" button. Fill in the form to add a new game.
+- Search for Weather: Use the search bar on the home page to enter a city and fetch its weather details.
+- Forecast Details: View a 5-day weather forecast for the searched location.
 
  ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+
  ## License
 
 Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
+
+
  ## Contact
 
 Emre Yaşar Çal - X [@Zaytexss](https://twitter.com/Zaytexss) - 2003ysr@gmail.com
